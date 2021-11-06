@@ -1,10 +1,10 @@
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 450px) {
   .Logo {
     color: #e5265a;
   }
   .header {
     display: flex;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #eaeaea;
     justify-content: space-between;
   }
   .line {

@@ -1,7 +1,8 @@
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 450px) {
   .cardTitle {
     color: #e5265a;
     font-size: 48px;
+    margin-bottom: 5px;
   }
   .card_image {
     height: 173px;
@@ -10,5 +11,10 @@
   }
   .cardLayout {
     padding: 10px 10px 10px 46px;
+    box-shadow: 10px 5px 5px 5px #0000001a;
+    /* border: 1px solid black; */
+  }
+  .cardLayout p {
+    margin-top: 2px;
   }
 }

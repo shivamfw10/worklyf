@@ -4,7 +4,7 @@ function HomepageCard({ titleName, description, url }) {
   return (
     <div className="cardLayout">
       <div className="cardHeader">
-        <div className="cardTitle">{titleName}</div>
+        <h2 className="cardTitle">{titleName}</h2>
 
         <i className="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
       </div>

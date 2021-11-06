@@ -1,7 +1,7 @@
 import "./App.css";
 import Title from "./components/Title";
 import HomepageCard from "./components/HomepageCard";
-
+import Explore from "./components/Explore";
 function App() {
   return (
     <>
@@ -11,6 +11,7 @@ function App() {
         description="from any corner of the world"
         url="./assets/card1.jpg"
       ></HomepageCard>
+      <Explore></Explore>
     </>
   );
 }

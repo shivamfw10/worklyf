@@ -1,0 +1,25 @@
+@media screen and (max-width: 385px) {
+  .Logo {
+    color: #e5265a;
+  }
+  .header {
+    display: flex;
+    border-bottom: 1px solid #EAEAEA;
+    justify-content: space-between;
+  }
+  .line {
+    width: 18px;
+    height: 2px;
+    background: black;
+    display: block;
+  }
+  .line:nth-child(2) {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .threedot {
+    position: relative;
+    padding: 20px;
+    margin-left: -10px;
+  }
+}

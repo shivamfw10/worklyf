@@ -1,0 +1,14 @@
+@media screen and (max-width: 385px) {
+  .cardTitle {
+    color: #e5265a;
+    font-size: 48px;
+  }
+  .card_image {
+    height: 173px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .cardLayout {
+    padding: 10px 10px 10px 46px;
+  }
+}

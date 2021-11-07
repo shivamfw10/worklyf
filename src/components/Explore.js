@@ -4,7 +4,7 @@ import ExploreChild from "./ExploreChild";
 function Explore() {
   return (
     <>
-      <div>
+      <div className="ExploreTitle">
         <h2>Explore Worklyf</h2>
       </div>
       <div className="sections">

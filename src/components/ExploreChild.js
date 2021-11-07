@@ -2,11 +2,13 @@ import React from "react";
 import "./ExploreChild.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSuitcase } from "@fortawesome/free-solid-svg-icons";
-function ExploreChild({ sectionName }) {
+function ExploreChild({ sectionName, sectionImg }) {
   return (
     <>
       <div className="circle">
-        <div></div>
+        <div>
+          <img src={sectionImg} />
+        </div>
         <div>
           <h2>{sectionName}</h2>
         </div>

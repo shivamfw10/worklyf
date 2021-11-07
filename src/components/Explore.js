@@ -5,13 +5,25 @@ function Explore() {
   return (
     <>
       <div className="ExploreTitle">
-        <h2>Explore Worklyf</h2>
+        <h3>Explore Worklyf</h3>
       </div>
       <div className="sections">
-        <ExploreChild sectionName="Jobs"></ExploreChild>
-        <ExploreChild sectionName="Projects"></ExploreChild>
-        <ExploreChild sectionName="Meetups"></ExploreChild>
-        <ExploreChild sectionName="Outings"></ExploreChild>
+        <ExploreChild
+          sectionName="Jobs"
+          sectionImg="./assets/Vector.png"
+        ></ExploreChild>
+        <ExploreChild
+          sectionName="Projects"
+          sectionImg="./assets/Vector1.png"
+        ></ExploreChild>
+        <ExploreChild
+          sectionName="Meetups"
+          sectionImg="./assets/Vector3.png"
+        ></ExploreChild>
+        <ExploreChild
+          sectionName="Outings"
+          sectionImg="./assets/Vector12.png"
+        ></ExploreChild>
       </div>
     </>
   );

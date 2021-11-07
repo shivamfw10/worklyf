@@ -18,7 +18,14 @@ function App() {
         url="./assets/card1.jpg"
       ></HomepageCard>
       <Explore></Explore>
-      <h3>Happening Tomorrow</h3>
+      <h3 className="happening">Happening Tomorrow</h3>
+      <Cards
+ 
+        imgSrc="./assets/author.jpg"
+        cardTitle="Meet your Mentor"
+        cardDescription="your personal success coach!"
+        btnText="Know More"
+      ></Cards>
       <Cards
         imgSrc="./assets/TechandDesign.png"
         cardTitle="Tech and Design"
@@ -31,6 +38,7 @@ function App() {
         cardDescription="28th October 2021, 5pm IST"
         btnText="Know More"
       ></Cards>
+      <h3 className="happening">Happening Next Week</h3>
       <Cards
         imgSrc="./assets/cyberMonday.png"
         cardTitle="Cyber Monday"

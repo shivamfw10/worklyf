@@ -1,10 +1,7 @@
 import React from "react";
 import "./HomepageCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowAltCircleRight,
- 
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 function HomepageCard({ titleName, description, url }) {
   return (
     <div className="cardLayout">

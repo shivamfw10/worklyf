@@ -3,6 +3,8 @@ import Title from "./components/Title";
 import HomepageCard from "./components/HomepageCard";
 import Explore from "./components/Explore";
 import Cards from "./components/Cards";
+import Slider from "./components/Slider";
+import upcoming from "./components/upcoming";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleRight,
@@ -11,7 +13,10 @@ import {
 function App() {
   return (
     <>
+      // <Slider />
       <Title logoTitle="wl" location="Mumbai"></Title>
+      <upcoming></upcoming>
+
       <HomepageCard
         titleName="Work"
         description="from any corner of the world"
@@ -20,7 +25,6 @@ function App() {
       <Explore></Explore>
       <h3 className="happening">Happening Tomorrow</h3>
       <Cards
- 
         imgSrc="./assets/author.jpg"
         cardTitle="Meet your Mentor"
         cardDescription="your personal success coach!"

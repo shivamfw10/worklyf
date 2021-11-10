@@ -31,19 +31,8 @@
   color: #61dafb;
 }
 
-/* *,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-
 body {
   font-family: Roboto;
-  /* height: 100vh;
-  background: #f1f1f1;
-  overflow: hidden; */
 }
 
 @keyframes App-logo-spin {

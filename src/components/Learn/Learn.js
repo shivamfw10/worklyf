@@ -1,22 +1,32 @@
 import React from "react";
 import "../../App.css";
-import Jobs from "../Jobs/Jobs";
+import "./Learn.css";
 import Title from "../Title/Title";
-import HomepageCard from "../ExploreHome/HomepageCard";
-import Explore from "../ExploreHome/Explore";
 import Cards from "../Cards/Cards";
-
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleRight,
-  faAnchor,
+  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Third() {
+function Learn() {
   return (
     <>
       <Title logoTitle="wl" location="Mumbai"></Title>
+      <div className="SearchAndEllipse">
+        <div>
+          <FontAwesomeIcon icon={faSearch} className="SearchBar" />
+          <input
+            type="text"
+            placeholder="Search for Interesting Topics"
+            className="interestingTopics"
+          />
+        </div>
+        <div className="rightEllipse">
+          <img src="./assets/Capsule.png" alt="" />
+        </div>
+      </div>
+      <small></small>
 
       <Cards
         imgSrc="./assets/TechandDesign.png"
@@ -41,4 +51,4 @@ function Third() {
   );
 }
 
-export default Third;
+export default Learn;

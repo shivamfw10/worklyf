@@ -35,6 +35,9 @@ function Homepage() {
           titleName="Work"
           description="from any corner of the world"
           url="./assets/card1.jpg"
+          arrowColour="#e5265a"
+          arrowClass="rightArrow"
+          titleClass="cardTitle"
         ></HomepageCard>
       </Link>
       <Explore></Explore>

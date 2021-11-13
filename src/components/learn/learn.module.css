@@ -1,0 +1,161 @@
+.faci {
+  overflow-x: scroll;
+  display: flex;
+  gap: 20px;
+}
+
+.faci p {
+  flex-shrink: 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 16px;
+  height: 100px;
+  width: 100px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.faci img {
+  flex-shrink: 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 30%;
+  text-align: center;
+}
+
+.upperImages {
+  overflow-x: scroll;
+  display: flex;
+  gap: 10px;
+}
+
+.upperImages p {
+  flex-shrink: 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 16px;
+  height: 100px;
+  width: 100px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upperImages img {
+  flex-shrink: 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 16px;
+  width: 40%;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.facilities {
+  margin-bottom: 20px;
+}
+
+.facilities h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main {
+  padding: 20px;
+  background-color: rgb(250, 250, 250);
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  height: 141px;
+  width: 360px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.heading {
+  color: #e5265a;
+  margin-bottom: 20px;
+}
+
+.card img {
+  border-radius: 50px;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 12px;
+  color: #868686;
+}
+
+.card button {
+  height: 36px;
+  width: 119px;
+  border-radius: 8px;
+  background: #e5265a;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.work {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.work img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.workH {
+  color: #e5265a;
+  font-size: 48px;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.icon {
+  font-size: 36px;
+  color: #e5265a;
+}
+
+.img img {
+  width: 100%;
+}
+
+.img h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}

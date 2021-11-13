@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.mainDiv {
+  text-align: left;
+  align-items: left;
+  width: 375px;
+  height: 812px;
+  vertical-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.passType {
+  display: flex;
+}
+.passType .passTypeTitle {
+  line-height: 24px;
+  line-height: 145%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 16px;
+  letter-spacing: 2%;
+  font-weight: 400;
+  color: #868686;
+}
+.passType .passTypeContent {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 23px;
+  line-height: 100%;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: center;
+  letter-spacing: 2%;
+}
+.selectDatetitle {
+  width: 129px;
+  height: 24px;
+  left: 0px;
+  top: 3px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #868686;
+}
+.datePicker {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 47%;
+  height: 24px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.promocode {
+  display: flex;
+  margin-top: 10%;
+}
+.promocodeIcon {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.promoCodeText {
+  border: 1px solid #e5265a;
+  background: #e5265a;
+  border-radius: 8px;
+  padding: 4px 3px;
+  margin-right: 5px;
+  width: 145px;
+  height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+}
+.promocodeInput {
+  border: none;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  border-bottom: 2px dotted black;
+}
+.promoApplied {
+  display: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 148%;
+  align-items: center;
+  text-align: center;
+  color: #027858;
+}
+.paymentSection {
+  text-align: center;
+  margin-top: 20%;
+}
+.paymentSection h3 {
+  font-weight: normal;
+  color: #06012c;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+.paymentDetail {
+  font-size: 16px;
+  display: flex;
+  column-gap: auto;
+  justify-content: space-between;
+}
+.extraoff {
+  color: #e5265a;
+  display: none;
+  text-align: left;
+  font-size: 16px;
+  column-gap: auto;
+  justify-content: space-between;
+}
+.extraoff .discountPrice {
+  position: relative;
+  left: 20.5rem;
+  bottom: 2rem;
+  margin-bottom: -13px;
+}
+.totalPayable {
+  color: #027858;
+}
+.stayConnect {
+  margin-top: 10%;
+}
+
+.checkbox {
+  width: 13px;
+  height: 23px;
+  position: relative;
+  bottom: -0.3rem;
+  border-radius: 25px;
+}
+.whatsappIcon {
+  color: #027858;
+  width: 23.33px;
+  height: 23px;
+  margin-top: 5px;
+}
+.whIcon {
+  margin-top: 5px;
+  position: relative;
+  bottom: -0.3rem;
+  margin-left: 5px;
+}

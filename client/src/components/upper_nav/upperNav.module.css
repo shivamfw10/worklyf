@@ -1,0 +1,31 @@
+.navbar {
+  padding: 22px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  /* gap: 30px; */
+  justify-content: space-between;
+  margin-bottom: 41px;
+  position: fixed;
+  top: 0;
+  width: 414px;
+}
+
+.first {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 22px;
+  color: black;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #e5265a;
+}

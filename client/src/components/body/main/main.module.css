@@ -1,0 +1,74 @@
+.worklyf_section{
+  width: 414px;
+  border:2px solid red;
+  background-color: #ffffff;
+  /* background-image: url(".././signup_img.svg"); */
+  margin: auto;
+  height: 100vh;
+}
+.lower_div{
+  margin: auto;
+  margin-top: 30vh;
+  /* align-items: center; */
+  text-align: center;
+}
+.btn_signup{
+  float:left;
+  margin-left: 20px;
+  background: #e5265a;
+  border-radius: 8px;
+  height: 48px;
+  width: 124px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.btn_login{
+  float: right;
+  margin-right: 20px;
+  background: #e5265a;
+  border-radius: 8px;
+  height: 48px;
+  width: 124px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.btn_login >a:hover{
+  text-align: none;
+  color: white;
+  font-size: 18px;
+}
+.btn_login>a{
+  color: white;
+}
+.btn_signup>a{
+  color: white;
+}
+.btn_signup>a:hover{
+  text-align: none;
+  color: white;
+  font-size: 18px;
+}
+.skip_p{
+  color: #868686;
+  font-size: 18px;
+}
+.skip_div{
+  clear: both;
+  padding-top: 20px;
+}
+.upper_p{
+  color: #E5265A;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 200px;
+  text-align: center;
+}
+.below_p{
+  font-size: 72px;
+  color:#06012C;
+  font-weight: 400;
+  text-align: center;
+}

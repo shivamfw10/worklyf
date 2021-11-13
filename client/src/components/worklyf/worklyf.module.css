@@ -1,0 +1,40 @@
+a{
+  text-decoration: none;
+}
+.worklyf_section {
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-FTTj4b3XlaHJ8-N9U3SqEa0rBLOeMXURBQ&usqp=CAU"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 190px;
+}
+
+.upperDiv > img {
+  width: 50%;
+
+  margin: auto;
+}
+
+.upperDiv {
+  margin-top: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  background: #e5265a;
+  border-radius: 8px;
+  height: 48px;
+  width: 124px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 20px;
+}

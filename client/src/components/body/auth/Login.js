@@ -108,7 +108,7 @@ function Login() {
                 to <a href="#"><u> Terms of Use</u></a> and <a href="#"><u>Privacy Policy</u></a>{" "}
             </p>
             </div>
-            <p className={styles.signup_link}>Not a Member? <Link to="/register">Singup</Link></p>
+            <p className={styles.signup_link}>Not a Member? <Link to="/register">Signup</Link></p>
         
             <p className={styles.socialmedia}>
                 <span className={styles.footer}> or Continue with</span>

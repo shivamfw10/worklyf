@@ -41,18 +41,15 @@ function Body() {
                 <Route path="/jobs" component={Jobs} exact/>
                 <Route path="/cards" component={Card} exact/>
                 <Route path="/card/:id" component={Workpass} exact/>
-                <Route path="/tribe" component={Tribe} exact/>
-                <Route path="/payment" component={Payment} exact/>
-                <Route path="/payment_method" component={PaymentMethod} exact/>
-                <Route path="/team" component={Team} exact/>
-                <Route path="/thankyou" component={Thankyou} exact/>
+               <Route path="/tribe" component={isLogged ? Tribe : Login} exact/>
+                <Route path="/payment" component={isLogged ? Payment : Login} exact/>
+                <Route path="/payment_method" component={isLogged ? PaymentMethod : Login} exact/>
+                <Route path="/team" component={isLogged ? Team : Login} exact/>
+                <Route path="/thankyou" component={isLogged ? Thankyou : Login} exact/>
                 <Route path="/learn" component={Learn} exact/>
-                
-                
 
-
-                <Route path="/login" component={isLogged ? NotFound :Login } exact />
-                <Route path="/register" component={isLogged ? NotFound :Register} exact />
+                <Route path="/login" component={isLogged ? Homepage :Login } exact />
+                <Route path="/register" component={isLogged ? Homepage :Register} exact />
 
                 <Route path="/forgot_password" component={isLogged ? NotFound : ForgotPass} exact />
                 <Route path="/user/reset/:token" component={isLogged ? NotFound : ResetPass} exact />

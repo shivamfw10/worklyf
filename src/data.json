@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "title": "Daily Pass",
+    "features": [
+      "Work from any Co-working",
+      "All Events Access",
+      "Jam Sessions"
+    ],
+    "duration": "24 hrs",
+    "price": 4999,
+    "convenienceFee": 99,
+    "about": "Be a Super Professional for a Month with the Monthly Pass. Network, Co-work and Learn with Worklyf!. Worklyf’s Daily Workpass comes in with tremndous value to your work as well as life, enabling you to any of your nearest co-working spaces, work from home with our virtual office feature, co-work with our global IT community, learn and grow with industry pros and much more!",
+    "facilities": ["Learn Access", "Co-working", "Global Jobs", "Event Access"],
+    "events": [
+      "<Ethics and AI, 1st Nov, 9am IST>",
+      "<Tech vs Human, 2nd Nov, 9am IST>",
+      "<Coding Challenge, 14th Nov, 9am IST>",
+      "<Dating the Data"
+    ],
+
+    "reviews": [
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! >",
+      "< I was so depressed due to Lockdown and all the WFH pressure, I now have a lovely community at Worklyf > ",
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! > "
+    ]
+  },
+
+  {
+    "id": 1,
+    "title": "Monthly Pass",
+    "features": [
+      "Universal Co-working",
+      "Exclusive Event Access",
+      "Personal Mentorship"
+    ],
+    "duration": "30 days",
+    "price": 8999,
+    "convenienceFee": 199,
+    "about": "Be a Super Professional for a Month with the Monthly Pass. Network, Co-work and Learn with Worklyf!. Worklyf’s Daily Workpass comes in with tremndous value to your work as well as life, enabling you to any of your nearest co-working spaces, work from home with our virtual office feature, co-work with our global IT community, learn and grow with industry pros and much more!",
+    "facilities": ["Learn Access", "Co-working", "Global Jobs", "Event Access"],
+    "events": [
+      "<Ethics and AI, 1st Nov, 9am IST>",
+      "<Tech vs Human, 2nd Nov, 9am IST>",
+      "<Coding Challenge, 14th Nov, 9am IST>",
+      "<Dating the Data"
+    ],
+
+    "reviews": [
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! >",
+      "< I was so depressed due to Lockdown and all the WFH pressure, I now have a lovely community at Worklyf > ",
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! > "
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Yearly Pass",
+    "features": [
+      "Universal Co-working",
+      "Exclusive Event Access",
+      "Personal Mentorship"
+    ],
+    "duration": "365 days",
+    "price": 10999,
+    "convenienceFee": 499,
+    "about": "Be a Super Professional for a Month with the Monthly Pass. Network, Co-work and Learn with Worklyf!. Worklyf’s Daily Workpass comes in with tremndous value to your work as well as life, enabling you to any of your nearest co-working spaces, work from home with our virtual office feature, co-work with our global IT community, learn and grow with industry pros and much more!",
+    "facilities": ["Learn Access", "Co-working", "Global Jobs", "Event Access"],
+    "events": [
+      "<Ethics and AI, 1st Nov, 9am IST>",
+      "<Tech vs Human, 2nd Nov, 9am IST>",
+      "<Coding Challenge, 14th Nov, 9am IST>",
+      "<Dating the Data"
+    ],
+
+    "reviews": [
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! >",
+      "< I was so depressed due to Lockdown and all the WFH pressure, I now have a lovely community at Worklyf > ",
+      "< Worklyf transformed both, my work as well as life, One of the Best Decision of my life was to bring in Worklyf! > "
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+.main {
+  margin: auto;
+  height: 100vh;
+  width: 414px;
+  padding: 15px
+}
+.cardDiv{
+  display: flex;
+  flex-direction: column;
+}
+.cardLogo{
+  font-size: 20px;
+}
+.cardIconText {
+  position: relative;
+  left: 1.3rem;
+  bottom: 1.1rem;
+  color:#868686;
+  margin-left: 7px;
+  height: 14px;
+  font-weight: normal;
+  font-size: 12px;
+}
+.cardBtn{
+  height: 36px;
+  width: 119px;
+  border-radius: 8px;
+  border: none;
+  background-color:#E5265A;
+  font-size: 14px;
+  color:#FFFFFF;
+}
+.card{
+  display: none;
+  text-align: center;
+  margin: 4% 0%;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px #0000001A;
+}
+.secondCardLogo{
+  font-size: 20px;
+  margin-left: 92%;
+}
+.cardNoName{
+  display: flex;
+  flex-direction: column;
+}
+.cvvEtc{
+  display:flex;
+  column-gap: 2%;
+  flex-direction: row;
+}
+.cvvEtc input{
+  width: 14%;
+}
+.cvv{
+  margin-left:45%; 
+}
+.card input{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+}
+.makePaymentBtn{
+  margin-top: 5%;
+  height: 28px;
+  width: 164px;
+  border-radius: 8px;
+  border: none;
+  background-color:#E5265A;
+  font-size: 14px;
+  color:#FFFFFF;
+}
+
+.googlepayIcon{
+  font-size: 30px;
+  margin-right: 3%;
+  box-shadow: 1px 1px 1px 1px #FFFFFF;
+}
+.paymentOptionText{
+  position: relative;
+  bottom: 1rem;
+  left: 1rem;
+  font-size:14px;
+  color:#868686;
+}
+.netBanking{
+  display: flex;
+  justify-content: space-around
+}
+.netbankingText{
+  margin-top: -1%;
+  margin-left: 11px;
+}

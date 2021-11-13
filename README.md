@@ -57,4 +57,4 @@
 * [Shivam Vishvakarma](https://github.com/shivamfw10)
 * [Akash Kumar](https://github.com/Krakash06/Krakash06)
 * [Anup Kumar Pandey](https://github.com/Anuppandey009)
-* [Anuray Kumar](https://github.com/anurag-k01)
+* [Anurag Kumar](https://github.com/anurag-k01)

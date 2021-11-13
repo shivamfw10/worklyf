@@ -13,7 +13,7 @@ function Home() {
             </div>
     ​
             <div className={styles_a.lower_div}>
-              <button className={styles_a.btn_signup}><Link to="/register">Sing Up</Link></button>
+              <button className={styles_a.btn_signup}><Link to="/register">Sign Up</Link></button>
               <button className={styles_a.btn_login}><Link to="/login">Login</Link></button>
               <div className={styles_a.skip_div}>
                 <Link className={styles_a.skip_p} to="/home">Skip it for Now &rarr;</Link>

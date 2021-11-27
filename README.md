@@ -55,6 +55,6 @@
 ## Members
 * [Sheetal Sindhu](https://github.com/sheetalsindhu)
 * [Shivam Vishvakarma](https://github.com/shivamfw10)
-* [Akash Kumar](https://github.com/Krakash06/Krakash06)
+* [Akash Kumar](https://www.linkedin.com/in/akash-kumar06/)
 * [Anup Kumar Pandey](https://github.com/Anuppandey009)
 * [Anurag Kumar](https://github.com/anurag-k01)
